@@ -9,10 +9,32 @@
 import UIKit
 import Foundation
 
-class Heros {
+class Heros : NSObject {
+    
+    var hero_agility : String = "";
+    
+    var hero_intellgience : String = "";
+    
+    var hero_movement_speed : String = "";
+    
+    var hero_strength : String = "";
+    
+    var share_hero : String = "";
+    
+    var hero_overview : String = "";
+    
+    var hero_armor : String = "";
+    
+    var hero_damage : String = "";
+    
+    var hero_detail : String = "";
     
     var hero_name : String = "";
     
     var hero_image : String = "";
+    
+    var hero_role : String = "";
+    
+    var hero_spell : [HeroSpell] = []
     
 }

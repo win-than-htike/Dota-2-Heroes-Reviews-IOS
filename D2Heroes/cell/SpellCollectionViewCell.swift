@@ -10,4 +10,7 @@ import UIKit
 
 class SpellCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var ivSpell: UIImageView!
+    @IBOutlet weak var spellName: UILabel!
+    
 }

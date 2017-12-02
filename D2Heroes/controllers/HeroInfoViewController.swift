@@ -1,5 +1,5 @@
 //
-//  OverviewViewController.swift
+//  HeroInfoViewController.swift
 //  D2Heroes
 //
 //  Created by Win Than Htike on 8/26/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OverviewViewController: UIViewController {
+class HeroInfoViewController: UIViewController {
 
     
     @IBOutlet weak var overview: UILabel!

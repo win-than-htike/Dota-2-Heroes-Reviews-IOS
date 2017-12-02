@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class HeroSpell : NSObject {
+    
+    var spell_image : String = "";
+    
+    var spell_name : String = "";
+    
+    var spell_overview : String = "";
+    
+}

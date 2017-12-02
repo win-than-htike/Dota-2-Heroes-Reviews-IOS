@@ -1,0 +1,6 @@
+framework module Pods_D2Heroes {
+  umbrella header "Pods-D2Heroes-umbrella.h"
+
+  export *
+  module * { export * }
+}
